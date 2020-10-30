@@ -3,7 +3,7 @@ const text = document.getElementById("text-result")
 
 function getRandomInt() {
 
-    var number = Math.floor(Math.random() * Math.floor(3));
+    var number = Math.floor(Math.random() * Math.floor(4));
     number += 1;
 
     if (number == 1) {
