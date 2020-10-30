@@ -3,35 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This isn't a scam</title>
+    <title>Totally Legitimate Thing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+
 </head>
 <body>
 
-    <div class="nav">
-        <div class="logo">
-            This isn't a scam
-        </div>
-        <div class="slogan">
-            Endorsed: Tyler Ninja Blevins
-        </div>
+    <div class="header">
+        Tap to decide what you should do for Halloween
     </div>
-    
-    <form action="./stolen.html">
+    <div id="text-result" class="text-result">
 
-        <input name="cname" id="cname" type="text" placeholder="CardHolder Name">
-
-        <input name="cnum" id="cnum" type="text" placeholder="Card Number">
-
-        <input name="ed" id="ed" type="text" placeholder="Expiration Date">
-
-        <input name="nob" id="nob" type="text" placeholder="3 Numbers On Back">
-
-        <input name="ssn" id="ssn" type="text" placeholder="Social Security Number">
-
-        <input type="submit">
-
-    </form>
+    </div>
+    <div class="button">
+        <button id="button1" onclick="getRandomInt();"> Decide for me! </button>
+    </div>
 
 </body>
 </html>
